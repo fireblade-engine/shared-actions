@@ -30,7 +30,7 @@ jobs:
 
       - name: Setup Swift ${{ matrix.swift_version }} WASM SDK
         id: setup-swiftwasm
-        uses: swiftwasm/setup-swiftwasm@v2
+        uses: swiftwasm/setup-swiftwasm@v2.1
         with:
           tag: "swift-${{ matrix.swift_version }}-RELEASE"
           target: "wasm32-unknown-wasi"
