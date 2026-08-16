@@ -26,7 +26,7 @@ jobs:
           - release
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Setup Swift ${{ matrix.swift_version }} WASM SDK
         id: setup-swiftwasm
