@@ -32,7 +32,7 @@ jobs:
           branch: swift-${{ matrix.swift_version }}-release
           tag: ${{ matrix.swift_version }}-RELEASE
 
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Cache SPM dependencies
         uses: actions/cache@v4
